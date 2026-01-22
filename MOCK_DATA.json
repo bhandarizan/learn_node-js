@@ -7998,5 +7998,37 @@
         "email": "lthornleyrr@walmart.com",
         "gender": "Male",
         "job_title": "Librarian"
+    },
+    {
+        "first_name": "Rizan",
+        "last_name": "Bhandari",
+        "email": "reezanbhandari@gmail.com",
+        "gender": "Male",
+        "job_title": "Full stack Dev",
+        "id": 1001
+    },
+    {
+        "first_name": "Sumi",
+        "last_name": "Dahal",
+        "email": "sumdahl@gmail.com",
+        "gender": "Male",
+        "job_title": "Software Engineer",
+        "id": 1002
+    },
+    {
+        "first_name": "Balkrishna",
+        "last_name": "Stha",
+        "email": "balkrishnashrestha@gmail.com",
+        "gender": "Male",
+        "job_title": "Kei audaina",
+        "id": 1004
+    },
+    {
+        "first_name": "Rizan",
+        "last_name": "Dahal",
+        "email": "rizandahl@gmail.com",
+        "gender": "Male",
+        "job_title": "Engineer",
+        "id": 1005
     }
 ]
