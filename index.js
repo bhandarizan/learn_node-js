@@ -5,7 +5,21 @@ const fs = require('fs');
 const app = express();
 const PORT = 8000;
 
+//Middleware 
 app.use(express.urlencoded({ extended: false }));
+
+app.use((req, res, next) => {
+console.log("Hello from Middleware 1");
+req.myUserName = "Rizan Bhandari";  
+next();
+});
+
+app.use((req, res, next) => {
+fs.appendFile('logs.txt', `${Date.now()}: ${req.ip} ${req.method}: ${req.path}\n`, (err, data) => {
+  next();
+});
+});
+
 
 app.get("/users", (req, res) => {
     const html = `
